@@ -142,11 +142,14 @@ hr{
     height: 50px;
 }
  .media{
-    
+     display: grid;
+     grid-column-gap: 5px;
+    justify-content: center;
     display: flex;
     
 }
 .footer {
+    
 width: 1596px;
 height: height: 150px;;
     text-align: center;
