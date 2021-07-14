@@ -1,0 +1,154 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:black
+}
+.pink{
+    color: rgb(245, 188, 197);
+}
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 1440px;
+    padding-left: 156px
+}
+
+header{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 27px;
+   
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: #2D25A0;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  
+  
+ 
+/* top section css */
+.container-1{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 27px;
+    padding-left: 156px;
+    
+    width: 1440px;
+    height: 677px;
+    background: #2D25A0;
+    border: rgba(255, 217, 0, 0.52) solid 2px;
+}
+.click{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #E02C6D;
+text-align: center;
+    width: 168px;
+    height: 44px;
+font-size: 16px;
+border-radius: 7px;
+-o-transition: .5s;
+-ms-transition: .5s;
+-webkit-transition: .5s;
+transition: 0.5s;
+}
+.container-1:hover{
+    background-color: rgb(10, 71, 18);
+}
+.click:hover{
+    background-color: coral;
+    border-radius: 50px;
+    text-shadow: 5px 3px 3px burlywood ;
+}
+
+h1{
+    color: #FFFFFF;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+    font-size: 64px;
+    line-height: 80px;
+}
+.upper-section img{
+    width: 566.01px;
+    height: 438px;
+   left: 1299.01px;
+    top: 153px;
+}
+/* middle section  */
+.blogs{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.blog img{
+width: 300px;
+height: 226px;
+}
+.blog{
+    box-shadow: 5px 5px 5px 5px gray;
+}
+hr{
+    border: 2px solid rebeccapurple;
+    margin-right: 150px;
+    
+}
+.cup{
+    display: flex;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.cup img{
+    width: 566.01px;
+    height: 438px;
+    left: 1299.01px;
+    top: 153px;
+   
+}
+/* footer style  */
+.footer img{
+    height: 50px;
+}
+ .media{
+    
+    display: flex;
+    
+}
+.footer {
+width: 1596px;
+height: height: 150px;;
+    text-align: center;
+    background:white;
+    
